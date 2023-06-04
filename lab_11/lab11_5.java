@@ -96,7 +96,6 @@ public class lab11_5 extends Application {
             series8.getData().add(new XYChart.Data<>(x, y));
         }
 
-        //9
         XYChart.Series<Number, Number> series9 = new XYChart.Series<>();
         series9.setName("line 9");
         for (double x = -2; x <= -1; x += 0.01) {
@@ -104,7 +103,6 @@ public class lab11_5 extends Application {
             series9.getData().add(new XYChart.Data<>(x, y));
         }
 
-        //10
         XYChart.Series<Number, Number> series10 = new XYChart.Series<>();
         series10.setName("line 10");
         for (double x = -1; x <= 2; x += 0.01) {
@@ -114,21 +112,21 @@ public class lab11_5 extends Application {
         /*double x0 = -3;
         double y0 = Math.sqrt(3 - Math.pow(x0, 2) - 2 * x0) + 1;
         series10.getData().add(new XYChart.Data<>(x0, y0));*/
-        //11
+
         XYChart.Series<Number, Number> series11 = new XYChart.Series<>();
         series11.setName("line 11");
         for (double x = 2; x <= 3; x += 0.01) {
             double y = 8*x-18;
             series11.getData().add(new XYChart.Data<>(x, y));
         }
-        //12
+
         XYChart.Series<Number, Number> series12 = new XYChart.Series<>();
         series12.setName("line 12");
         for (double x = 3; x <= 6; x += 0.01) {
             double y = -(5*x)/3+11;
             series12.getData().add(new XYChart.Data<>(x, y));
         }
-        //13
+
         XYChart.Series<Number, Number> series13 = new XYChart.Series<>();
         series13.setName("line 13");
         for (double x = 0; x <= 1; x += 0.01) {
