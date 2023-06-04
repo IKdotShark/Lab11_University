@@ -219,7 +219,7 @@ public class lab11 {
         exerciseFrame.setVisible(true);
     }
     private void openExercise5() {
-        // Implement exercise 5
+        // NO exercise 5
     }
 
     private void writeToFile(String text, String filePath) {
