@@ -183,7 +183,8 @@ public class lab11 {
     }
 
     private void openExercise3() {
-        // Implement exercise 3
+        JFrame exerciseFrame = new lab11_3();
+        exerciseFrame.setLocationRelativeTo(frame);
     }
     private void openExercise4() {
         JFrame exerciseFrame = new JFrame("Exercise 4");
