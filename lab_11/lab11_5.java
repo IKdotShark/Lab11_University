@@ -19,17 +19,14 @@ public class lab11_5 extends Application {
     public void start(Stage primaryStage) {
         primaryStage.setTitle("График попадания точки в область");
 
-        // Создание осей
         final NumberAxis xAxis = new NumberAxis();
         final NumberAxis yAxis = new NumberAxis();
         lineChart = new LineChart<>(xAxis, yAxis);
 
-        // Создание главной панели
         VBox mainPane = new VBox(20);
         mainPane.setPadding(new Insets(20));
         mainPane.getChildren().add(lineChart);
 
-        // Построение графика
         plotGraph();
 
         Scene scene = new Scene(mainPane, 600, 600);
